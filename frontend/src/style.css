@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%; /* 16px * 62.5 = 10px = 1rem or 1unit */
+}
+
+body{
+    height: 100vh; /* full height, vh means view port height */
+    font: 1.6rem Helvetica, Arial; /* which means 16px font size and set default font Helvetica and it doesn't exist use Arial*/
+    margin: 0; /* removing margins, by default body has margines*/
+}
+.grid-container{
+    display: grid; 
+    grid-template-areas: 
+        'header'
+        'main'
+        'footer';
+    grid-template-columns: 1fr; /* there is only one colum or fragment*/
+    grid-template-rows: 5rem 1fr 5rem; /*there are 3 rows, the first rows accupy 5rem(50px), the second one for main and accupy the remaining part and the last section at the ver bottom accupy 5rem for footer */    
+    height: 100%;
+}
+
+header{
+    grid-area: header;
+    background-color: #203040;
+    color: #ffffff;
+    display: flex; /*because we want to have jsamazonam and sign-in,cart at the same row with the space between of them */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+header a{
+    color: #ffffff; /* this config which set to all header elements */
+    font-weight: bold;
+    text-decoration: none;
+}
+header a:hover {
+    color: #f08040; /* when mouse pass the elements of the header change it color of text to orange*/
+}
+.brand a{
+    font-size: 3rem;
+}
+footer{
+    background-color: #203040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
