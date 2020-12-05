@@ -25,3 +25,5 @@ JS AMAZONA
     4. add .product-image, .product-name, .product-brand, .product-price
     5. style ul.products and interval divs
     6. duplicate 2 times to show 3 products    
+
+
