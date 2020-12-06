@@ -1,6 +1,6 @@
 # JS AMAZONA
 # Amazona ECommerce Website
-![amazona](/frontend/images/jsamazona.jpg)
+![amazona](/frontend/src/images/jsamazona.jpg)
 
 # JavaScript
 
