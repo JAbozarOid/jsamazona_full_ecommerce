@@ -10,6 +10,7 @@ This is an e-commerce website like amazon. Build an e-commerce website using HTM
 
 - HTML5 and CSS3: Semantic Elements, CSS Grid, Flexbox
 - JavaScript: ES6+, Array Functions, Rendering System
+- Node & Express: Web API, Body Parser, File Upload, JWT
 
 ### 1. Clone repo
 
@@ -27,6 +28,14 @@ $ npm install
 $ npm start
 ```
 
+### 3. Run Backend
+
+```
+$ npm install
+$ npm run build
+$ npm start
+```
+
 # Features
 
 1. Home Screen
@@ -41,3 +50,13 @@ $ npm start
    2. Master in javascript array functions
    3. Use combo box and add event to it
    4. re-render screen based on changes in item count
+4. Sign-in and Register Screen
+   1. Create dynamic form
+   2. Input validation in frontend and backend
+   3. Create web server using node.js
+   4. Connect to Mongodb database
+   5. Add registered user to the database
+   6. Authenticate user based on email and password
+   7. Using Jsonwebtoken to authorize users
+   
+
