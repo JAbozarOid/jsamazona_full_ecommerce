@@ -1,5 +1,5 @@
-# JS AMAZONA
-# Amazona ECommerce Website
+# JS Online Market
+# ECommerce Website
 ![amazona](/frontend/src/images/jsamazona.jpg)
 
 # JavaScript
