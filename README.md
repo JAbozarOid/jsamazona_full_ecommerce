@@ -1,6 +1,6 @@
 # JS AMAZONA
 # Amazona ECommerce Website
-![amazona](/frontend/images/jsamazona.jpg)
+
 
 # JavaScript Tutorial - Full ECommerce in 7 Hours [2021]
 
